@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" language="" name="ActorEvents_0" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_2" classname="scripts.ActorEvents_2" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="2" language="" name="ActorEvents_2" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_3_3_SceneManager" classname="scripts.Design_3_3_SceneManager" desc="" description="" design="true" drawOrder="0" id="3" language="" name="Scene Manager" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Xincrementer" hidden="false" id="1" name="_Xincrementer" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="YIncrementer" hidden="false" id="2" name="_YIncrementer" order="1"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Grid Spacing" hidden="false" id="3" name="_GridSpacing" order="2"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="UID" hidden="false" id="4" name="_UID" order="3"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="Gem_Type" hidden="false" id="5" name="_GemType" order="4"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="TileList" hidden="false" id="6" name="_TileList" order="5"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="AlreadySpawned?" hidden="false" id="7" name="_AlreadySpawned" order="6"/>
+        <region default="" defaultValue="" desc="" dropdown="" fullname="Target" hidden="false" id="8" name="_Target" order="7"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Swapping?" hidden="false" id="9" name="_Swapping" order="8"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Can Spawn?" hidden="false" id="10" name="_CanSpawn" order="9"/>
+        <boolean default="false" defaultValue="false" desc="Boolean to stop pause gem spawning while destroy sequence is going." dropdown="" fullname="Is Destroying?" hidden="false" id="11" name="_IsDestroying" order="10"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Check Matches" hidden="true" id="12" name="_CheckMatches" order="11"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Number Of Matches?" hidden="false" id="15" name="_NumberOfMatches" order="12"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Searcher" hidden="false" id="17" name="_Searcher" order="13"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="KillList" hidden="false" id="25" name="_KillList" order="14"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="DestroyListModifier" hidden="false" id="27" name="_DestroyListModifier" order="16"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="GemTypeNumber" hidden="false" id="26" name="_GemTypeNumber" order="15"/>
+        <actortype default="" defaultValue="" desc="" dropdown="" fullname="SpawnTypeActor" hidden="false" id="29" name="_SpawnTypeActor" order="18"/>
+        <number default="0.0" defaultValue="0.0" desc="ID for actor type" dropdown="" fullname="SpawnType_ID" hidden="false" id="28" name="_SpawnTypeID" order="17"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="XSearcher" hidden="false" id="31" name="_XSearcher" order="20"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Spawn?" hidden="false" id="30" name="_Spawn" order="19"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ActorReveal" hidden="false" id="34" name="_ActorReveal" order="23"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="UIDCOPY" hidden="false" id="35" name="_UIDCOPY" order="24"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="KillListMod" hidden="false" id="32" name="_KillListMod" order="21"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ScreenOffset" hidden="false" id="33" name="_ScreenOffset" order="22"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="RefillX" hidden="false" id="38" name="_RefillX" order="27"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="RefillY" hidden="false" id="39" name="_RefillY" order="28"/>
+        <sound default="" defaultValue="" desc="" dropdown="" fullname="GemSound" hidden="false" id="36" name="_GemSound" order="25"/>
+        <sound default="" defaultValue="" desc="" dropdown="" fullname="sda" hidden="false" id="37" name="_sda" order="26"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Score" hidden="true" id="42" name="_Score" order="31"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ScoreCounter" hidden="false" id="43" name="_ScoreCounter" order="32"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Delayer" hidden="false" id="40" name="_Delayer" order="29"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="DrawOrder" hidden="false" id="41" name="_DrawOrder" order="30"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BeaterCombo" hidden="false" id="46" name="_BeaterCombo" order="35"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ExtraSearcher" hidden="false" id="47" name="_ExtraSearcher" order="36"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="BeaterSpawn" hidden="false" id="44" name="_BeaterSpawn" order="33"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="false" id="45" name="_Direction" order="34"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="IdleTime" hidden="false" id="51" name="_IdleTime" order="40"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="HintList" hidden="false" id="50" name="_HintList" order="39"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="SpecialSpawn?" hidden="false" id="49" name="_SpecialSpawn" order="38"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="MatchesFound?" hidden="false" id="48" name="_MatchesFound" order="37"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="SpecialKill?" hidden="false" id="53" name="_SpecialKill" order="42"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="SpecialListBomb" hidden="false" id="52" name="_SpecialListBomb" order="41"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BombX" hidden="false" id="63" name="_BombX" order="47"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Create Bomb Piece?" hidden="false" id="62" name="_CreateBombPiece" order="46"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="DoubleCombo" hidden="false" id="61" name="_DoubleCombo" order="45"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="GemID" hidden="false" id="60" name="_GemID" order="43"/>
+        <actortype default="" defaultValue="" desc="" dropdown="" fullname="Coins" hidden="false" id="68" name="_Coins" order="52"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BeaterRefillX" hidden="false" id="69" name="_BeaterRefillX" order="53"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="BeaterRefillY" hidden="false" id="70" name="_BeaterRefillY" order="54"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="MusicManager" hidden="false" id="71" name="_MusicManager" order="55"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BombY" hidden="false" id="64" name="_BombY" order="48"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BombXX" hidden="false" id="65" name="_BombXX" order="49"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BombYY" hidden="false" id="66" name="_BombYY" order="50"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="BombKill?" hidden="false" id="67" name="_BombKill" order="51"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Lose?" hidden="false" id="76" name="_Lose" order="60"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="ScreenOffesetY" hidden="false" id="77" name="_ScreenOffesetY" order="61"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Combo" hidden="false" id="78" name="_Combo" order="62"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ActorDeathPos" hidden="false" id="79" name="_ActorDeathPos" order="63"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Swing" hidden="false" id="72" name="_Swing" order="56"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="SwingCounter" hidden="false" id="73" name="_SwingCounter" order="57"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="GameTempo" hidden="false" id="74" name="_GameTempo" order="58"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Win?" hidden="false" id="75" name="_Win" order="59"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Cursor" hidden="false" id="85" name="_Cursor" order="69"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="DisplayText?" hidden="true" id="84" name="_DisplayText" order="68"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="EndLevel?" hidden="true" id="87" name="_EndLevel" order="71"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="combonumber" hidden="true" id="86" name="_combonumber" order="70"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="PlayerInput?" hidden="false" id="81" name="_PlayerInput" order="65"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="ActorDeathPosY" hidden="false" id="80" name="_ActorDeathPosY" order="64"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Multiplefinder" hidden="true" id="83" name="_Multiplefinder" order="67"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="AutoCombo" hidden="true" id="82" name="_AutoCombo" order="66"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="TapmodeFlag" hidden="true" id="93" name="_TapmodeFlag" order="76"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="TappingList" hidden="false" id="92" name="_TappingList" order="44"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="TapTime" hidden="false" id="95" name="_TapTime" order="78"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="TapPrekill" hidden="false" id="94" name="_TapPrekill" order="77"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="Ending" hidden="false" id="89" name="_Ending" order="73"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="CreateWorm" hidden="true" id="88" name="_CreateWorm" order="72"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="GemSelector" hidden="true" id="91" name="_GemSelector" order="75"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="Taplist" hidden="false" id="90" name="_Taplist" order="74"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="TapOn" hidden="true" id="102" name="_TapOn" order="85"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="PreTapKillList" hidden="false" id="103" name="_PreTapKillList" order="86"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="CleanUpTapMode" hidden="false" id="100" name="_CleanUpTapMode" order="83"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="cleaner" hidden="true" id="101" name="_cleaner" order="84"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="TapCombo" hidden="true" id="98" name="_TapCombo" order="81"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="TapKillList" hidden="false" id="99" name="_TapKillList" order="82"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="StartTimer" hidden="false" id="96" name="_StartTimer" order="79"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="ComboBrokenFlag" hidden="false" id="97" name="_ComboBrokenFlag" order="80"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="resetX" hidden="true" id="104" name="_resetX" order="87"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="resetY" hidden="true" id="105" name="_resetY" order="88"/>
+        <blocks>
+            <receiver blockID="33" id="1"/>
+            <receiver blockID="34" id="2"/>
+            <receiver blockID="35" id="3"/>
+            <receiver blockID="33" id="4"/>
+            <receiver blockID="34" id="5"/>
+            <receiver blockID="33" id="6"/>
+        </blocks>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="2" name="draw" order="3" repeats="true"/>
+            <event displayName="Spawn" enabled="true" id="3" name="event-custom" order="8" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="4" name="step" order="4" repeats="true"/>
+            <event displayName="CheckGrid" enabled="true" id="5" name="event-custom" order="9" repeats="true"/>
+            <event displayName="Check" enabled="true" id="6" name="event-custom" order="10" repeats="true"/>
+            <event displayName="Pre Kill" enabled="true" id="7" name="event-custom" order="11" repeats="true"/>
+            <event displayName="Kill" enabled="true" id="8" name="event-custom" order="12" repeats="true"/>
+            <event displayName="SpawnStart" enabled="true" id="10" name="event-custom" order="7" repeats="true"/>
+            <event displayName="Beater Killed" enabled="true" id="11" name="event-type-create-kill" order="19" repeats="true"/>
+            <event displayName="SwipeUp" enabled="true" id="12" name="event-device-swipe" order="22" repeats="true"/>
+            <event displayName="SwipeDown" enabled="true" id="13" name="event-device-swipe" order="23" repeats="true"/>
+            <event displayName="SwipeLeft" enabled="true" id="14" name="event-device-swipe" order="24" repeats="true"/>
+            <event displayName=" SwipeRight" enabled="true" id="15" name="event-device-swipe" order="25" repeats="false"/>
+            <event displayName="Hint" enabled="false" id="17" name="event-custom" order="27" repeats="true"/>
+            <event displayName="CheckForValidMoves" enabled="false" id="16" name="event-custom" order="26" repeats="true"/>
+            <event displayName="Copy of CheckForValidMoves" enabled="false" id="19" name="event-custom" order="29" repeats="true"/>
+            <event displayName="BeaterSpawn" enabled="true" id="21" name="event-custom" order="30" repeats="true"/>
+            <event displayName="SpecialKill" enabled="true" id="20" name="event-custom" order="13" repeats="true"/>
+            <event displayName="CheckWinConditions" enabled="true" id="23" name="event-custom" order="15" repeats="true"/>
+            <event displayName="MusicManagere" enabled="true" id="22" name="event-custom" order="5" repeats="true"/>
+            <event displayName="Lose" enabled="true" id="25" name="event-custom" order="31" repeats="true"/>
+            <event displayName="Win" enabled="true" id="24" name="event-custom" order="17" repeats="true"/>
+            <event displayName="WormHole" enabled="true" id="27" name="event-custom" order="6" repeats="true"/>
+            <event displayName="ComboCreated" enabled="true" id="26" name="event-type-create-kill" order="21" repeats="true"/>
+            <event displayName="EndingLevel" enabled="true" id="28" name="event-custom" order="18" repeats="true"/>
+            <event displayName="ResetTap" enabled="true" id="31" name="event-custom" order="33" repeats="true"/>
+            <event displayName="TapTime" enabled="true" id="30" name="event-custom" order="32" repeats="true"/>
+            <event displayName="TapMode" enabled="true" id="32" name="event-custom" order="34" repeats="true"/>
+            <event displayName="StartTimerTrue" enabled="true" id="33" name="event-att-bool" order="35" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_5_5_beatgem" classname="scripts.Design_5_5_beatgem" desc="" description="" design="true" drawOrder="0" id="5" language="" name="beat gem" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="StartX" hidden="false" id="1" name="_StartX" order="1"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="StartY" hidden="false" id="2" name="_StartY" order="2"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Swapping?" hidden="false" id="3" name="_Swapping" order="3"/>
+        <region default="" defaultValue="" desc="" dropdown="" fullname="Target" hidden="false" id="4" name="_Target" order="4"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="AlreadySpawned?" hidden="false" id="5" name="_AlreadySpawned" order="5"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="SoundType" hidden="false" id="6" name="_SoundType" order="6"/>
+        <sound default="" defaultValue="" desc="" dropdown="" fullname="GemSound" hidden="false" id="7" name="_GemSound" order="7"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="NewX" hidden="false" id="8" name="_NewX" order="8"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="NewY" hidden="false" id="9" name="_NewY" order="9"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="SwappingUP" hidden="false" id="10" name="_SwappingUP" order="10"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="SwappingDown" hidden="false" id="11" name="_SwappingDown" order="11"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="SwappingLeft" hidden="false" id="12" name="_SwappingLeft" order="12"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="SwappingRight" hidden="false" id="13" name="_SwappingRight" order="13"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="GemTypeNumber" hidden="false" id="14" name="_GemTypeNumber" order="14"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="GemID" hidden="false" id="15" name="_GemID" order="15"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Octave" hidden="false" id="17" name="_Octave" order="17"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Colliding?" hidden="false" id="16" name="_Colliding" order="16"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="ActorReveal" hidden="false" id="19" name="_ActorReveal" order="19"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="RegionList" hidden="false" id="18" name="_RegionList" order="18"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="YIncrementer" hidden="false" id="21" name="_YIncrementer" order="21"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Xincrementer" hidden="false" id="20" name="_Xincrementer" order="20"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="SelfSelector" hidden="false" id="23" name="_SelfSelector" order="23"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="UID" hidden="false" id="22" name="_UID" order="22"/>
+        <number default="0.0" defaultValue="0.0" desc="ID for actor type" dropdown="" fullname="SpawnType_ID" hidden="false" id="25" name="_SpawnTypeID" order="25"/>
+        <actortype default="" defaultValue="" desc="" dropdown="" fullname="SpawnTypeActor" hidden="false" id="24" name="_SpawnTypeActor" order="24"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="type2" hidden="false" id="27" name="_type2" order="27"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="type1" hidden="false" id="26" name="_type1" order="26"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="type4" hidden="false" id="29" name="_type4" order="28"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="type6" hidden="false" id="31" name="_type6" order="30"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="type5" hidden="false" id="30" name="_type5" order="29"/>
+        <sound default="" defaultValue="" desc="" dropdown="" fullname="Metronome" hidden="false" id="34" name="_Metronome" order="33"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BeaterCombo" hidden="false" id="35" name="_BeaterCombo" order="34"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="type3" hidden="false" id="32" name="_type3" order="31"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Direction" hidden="false" id="33" name="_Direction" order="32"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Type7" hidden="false" id="38" name="_Type7" order="37"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Type8" hidden="false" id="39" name="_Type8" order="38"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="CanSwap?" hidden="false" id="36" name="_CanSwap" order="35"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Gem" hidden="false" id="37" name="_Gem" order="36"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="type10" hidden="false" id="42" name="_type10" order="41"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="type11" hidden="false" id="43" name="_type11" order="42"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="TypeNumber" hidden="false" id="40" name="_TypeNumber" order="39"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Type9" hidden="false" id="41" name="_Type9" order="40"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ColorMatch1" hidden="false" id="46" name="_ColorMatch1" order="45"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ColorMatch2" hidden="false" id="47" name="_ColorMatch2" order="46"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="type12" hidden="false" id="44" name="_type12" order="43"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="Gem_Type" hidden="false" id="45" name="_GemType" order="44"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ColorMatch6" hidden="false" id="51" name="_ColorMatch6" order="50"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ColorMatch5" hidden="false" id="50" name="_ColorMatch5" order="49"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ColorMatch4" hidden="false" id="49" name="_ColorMatch4" order="48"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ColorMatch3" hidden="false" id="48" name="_ColorMatch3" order="47"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Type16" hidden="false" id="55" name="_Type16" order="54"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Type15" hidden="false" id="54" name="_Type15" order="53"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Type14" hidden="false" id="53" name="_Type14" order="52"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Type13" hidden="false" id="52" name="_Type13" order="51"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="RegionCreated?" hidden="false" id="59" name="_RegionCreated" order="58"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Degrees" hidden="false" id="58" name="_Degrees" order="57"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Type18" hidden="false" id="57" name="_Type18" order="56"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Type17" hidden="false" id="56" name="_Type17" order="55"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="Taplist" hidden="false" id="63" name="_Taplist" order="65"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="GemSelector" hidden="true" id="62" name="_GemSelector" order="64"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Tappable?" hidden="false" id="61" name="_Tappable" order="60"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="GTempo" hidden="true" id="60" name="_GTempo" order="59"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="tapping?" hidden="false" id="64" name="_tapping" order="61"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="TappingList" hidden="false" id="65" name="_TappingList" order="63"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="RestTap" hidden="false" id="66" name="_RestTap" order="62"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="SwapRight" enabled="true" id="5" name="event-custom" order="13" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="6" name="step" order="5" repeats="true"/>
+            <event displayName="SwapLeft" enabled="true" id="7" name="event-custom" order="12" repeats="true"/>
+            <event displayName="SwapDown" enabled="true" id="8" name="event-custom" order="11" repeats="true"/>
+            <event displayName="SwapUp" enabled="true" id="9" name="event-custom" order="10" repeats="true"/>
+            <event displayName="UpdatePosition" enabled="true" id="11" name="event-custom" order="15" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="12" name="draw" order="16" repeats="true"/>
+            <event displayName="CanSwapUp" enabled="true" id="15" name="event-custom" order="19" repeats="true"/>
+            <event displayName="CanSwapLeft" enabled="true" id="17" name="event-custom" order="21" repeats="true"/>
+            <event displayName="CanSwapDown" enabled="true" id="16" name="event-custom" order="20" repeats="true"/>
+            <event displayName="CanSwapRight" enabled="true" id="18" name="event-custom" order="22" repeats="true"/>
+            <event displayName="Tappy" enabled="true" id="21" name="event-custom" order="7" repeats="true"/>
+            <event displayName="BeatGemKilled" enabled="true" id="20" name="event-actor-create-kill" order="24" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_6_6_Metronome" classname="scripts.Design_6_6_Metronome" desc="" description="" design="true" drawOrder="0" id="6" language="" name="Metronome" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="BeatCheck" hidden="true" id="1" name="_BeatCheck" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BeatRemainder" hidden="true" id="2" name="_BeatRemainder" order="1"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Go" hidden="true" id="3" name="_Go" order="2"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="SceneTempo" hidden="false" id="4" name="_SceneTempo" order="3"/>
+        <sound default="" defaultValue="" desc="" dropdown="" fullname="SceneTrack" hidden="false" id="5" name="_SceneTrack" order="4"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="SceneTimeSignature" hidden="false" id="6" name="_SceneTimeSignature" order="5"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="MeasureNumber" hidden="false" id="7" name="_MeasureNumber" order="6"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="TimeElapsed" hidden="false" id="8" name="_TimeElapsed" order="7"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="TimeStart" hidden="false" id="9" name="_TimeStart" order="8"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="CurrentTime" hidden="false" id="11" name="_CurrentTime" order="9"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="BeatPos" hidden="false" id="12" name="_BeatPos" order="10"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+            <event displayName="Go" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="4" name="draw" order="5" repeats="true"/>
+            <event displayName="Onbeat" enabled="false" id="5" name="event-custom" order="7" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_9_9_BeatLineManager" classname="scripts.Design_9_9_BeatLineManager" desc="" description="" design="true" drawOrder="0" id="9" language="" name="BeatLineManager" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="AlreadySpawned?" hidden="false" id="1" name="_AlreadySpawned" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BeatLineX" hidden="false" id="2" name="_BeatLineX" order="1"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BeatLineY" hidden="false" id="3" name="_BeatLineY" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="YIncrementer" hidden="false" id="4" name="_YIncrementer" order="3"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Grid Spacing" hidden="false" id="5" name="_GridSpacing" order="4"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="BeatPos" hidden="false" id="6" name="_BeatPos" order="5"/>
+        <number default="0.0" defaultValue="0.0" desc="ID for actor type" dropdown="" fullname="SpawnType_ID" hidden="false" id="7" name="_SpawnTypeID" order="6"/>
+        <actortype default="" defaultValue="" desc="" dropdown="" fullname="SpawnTypeActor" hidden="false" id="8" name="_SpawnTypeActor" order="7"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="RefillX" hidden="false" id="9" name="_RefillX" order="8"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="RefillY" hidden="false" id="10" name="_RefillY" order="9"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="Gem_Type" hidden="false" id="11" name="_GemType" order="10"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="BP" hidden="true" id="12" name="_BP" order="11"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="SpecialSpawn?" hidden="false" id="13" name="_SpecialSpawn" order="12"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Drawing" enabled="false" id="2" name="draw" order="2" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="3" name="step" order="3" repeats="true"/>
+            <event displayName="Actor Created" enabled="false" id="4" name="event-type-create-kill" order="4" repeats="true"/>
+            <event displayName="BeaterSpawn" enabled="true" id="5" name="event-custom" order="5" repeats="true"/>
+            <event displayName="SpecialSpawn" enabled="false" id="6" name="event-custom" order="6" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_14" classname="scripts.ActorEvents_14" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="10" language="" name="ActorEvents_14" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_58" classname="scripts.ActorEvents_58" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="18" language="" name="ActorEvents_58" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_21_21_Particles" classname="scripts.Design_21_21_Particles" desc="Will make the actor spawn another actor type at fixed intervals. It has options for spawning at a random offset or in a circumference and different movement modes for the particles.&lt;br&gt;&lt;br&gt;You can activate and deactivate this behavior from other behaviors, by using the triggers StartEmitting and StopEmitting, respectively.&lt;br&gt;&lt;br&gt;&#10;Comes with a  custom block that uses the Random spawn mode and To Angle movement mode." description="Will make the actor spawn another actor type at fixed intervals. It has options for spawning at a random offset or in a circumference and different movement modes for the particles.&lt;br&gt;&lt;br&gt;You can activate and deactivate this behavior from other behaviors, by using the triggers StartEmitting and StopEmitting, respectively.&lt;br&gt;&lt;br&gt;&#10;Comes with a  custom block that uses the Random spawn mode and To Angle movement mode." design="true" drawOrder="0" id="21" language="" name="Particles" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actortype default="" defaultValue="" desc="The type of particle to emit. It will be created in a random position, based on the actor's position, and the maximum and minimum offset values." dropdown="" fullname="Particle Type" hidden="false" id="1" name="_ParticleType" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="X Minimum Offset if Random mode is selected." dropdown="" fullname="X Minimum Offset" hidden="false" id="2" name="_XMinimumOffset" order="9"/>
+        <number default="0.0" defaultValue="0.0" desc="X Maximum Offset if Random mode is selected." dropdown="" fullname="X Maximum Offset" hidden="false" id="3" name="_XMaximumOffset" order="10"/>
+        <number default="0.0" defaultValue="0.0" desc="Y Minimum Offset if Random mode is selected." dropdown="" fullname="Y Minimum Offset" hidden="false" id="4" name="_YMinimumOffset" order="11"/>
+        <number default="0.0" defaultValue="0.0" desc="X Maximum Offset if Random mode is selected." dropdown="" fullname="Y Maximum Offset" hidden="false" id="5" name="_YMaximumOffset" order="12"/>
+        <text default="" defaultValue="" desc="The type of movement the particles will perform:&lt;br&gt;&lt;br&gt;&#10;To Angle: the particles will go towards the specified angle.&lt;br&gt;&#10;Expand: the particles will go away from the actor.&lt;br&gt;&#10;To Center: the particles will go to the center of the actor.&lt;br&gt;&#10;To Point: the particles will go to a specific point based on the actor's position and an offset.&lt;br&gt;&#10;No Movement: The particle won't move&lt;br&gt;&lt;br&gt;&#10;Tip 1: Select random and make all the Offset values to match the center of the actor for a centralized expand effect.&lt;br&gt;&#10;Tip 2: You can make the particle actor affected by gravity for a different effect." dropdown="To Angle=To Angle&#10;Expand=Expand&#10;To Center=To Center&#10;To Point=To Point&#10;No Movement=No Movement" fullname="Movement Mode" hidden="false" id="6" name="_MovementMode" order="13"/>
+        <boolean default="true" defaultValue="true" desc="If checked, the actor will start the scene emitting particles." dropdown="" fullname="Activated" hidden="false" id="7" name="_Activated" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="Delay between particles." dropdown="" fullname="Particle Delay" hidden="false" id="8" name="_ParticleDelay" order="21"/>
+        <boolean default="false" defaultValue="false" desc="Boolean that checks when a particle is created." dropdown="" fullname="Handle Particle" hidden="true" id="9" name="_HandleParticle" order="22"/>
+        <number default="0.0" defaultValue="0.0" desc="Force to push the particles." dropdown="" fullname="Particle Force" hidden="true" id="10" name="_ParticleForce" order="20"/>
+        <number default="0.0" defaultValue="0.0" desc="A special type of offset. If you select To Point mode, you can make the particles travel to a specific point based on the actor's coordinates and this offset." dropdown="" fullname="To Point X Offset" hidden="false" id="11" name="_ToPointXOffset" order="15"/>
+        <number default="0.0" defaultValue="0.0" desc="A special type of offset. If you select To Point mode, you can make the particles travel to a specific point based on the actor's coordinates and this offset." dropdown="" fullname="To Point Y Offset" hidden="false" id="12" name="_ToPointYOffset" order="16"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0.0" defaultValue="0.0" desc="Radius of the perimeter if Perimeter mode is set." dropdown="" fullname="Radius" hidden="false" id="17" name="_Radius" order="8"/>
+        <text default="" defaultValue="" desc="How will the particles be spawned:&lt;br&gt;&#10;Random: Spawn at a random offset based on the minimum and maximum offsets.&lt;br&gt;&#10;Perimeter: Spawn at a perimeter around the actor." dropdown="Random=Random&#10;Perimeter=Perimeter" fullname="Spawn Modes" hidden="false" id="16" name="_SpawnModes" order="6"/>
+        <number default="0.0" defaultValue="0.0" desc="Angle to move if the Movement Mode is set &quot;To Angle&quot;.&lt;br&gt;&lt;br&gt;&#10;For reference:&lt;br&gt;&#10;- 270 = Up&lt;br&gt;&#10;- 0 = Right&lt;br&gt;&#10;- 90 = Down&lt;br&gt;&#10;- 180 = Left" dropdown="" fullname="Angle to Move" hidden="false" id="19" name="_AngletoMove" order="14"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Random Angle" hidden="true" id="18" name="_RandomAngle" order="7"/>
+        <number default="0.0" defaultValue="0.0" desc="Maximum force to push the particles. If Random Speed is not checked, Maximum Particle Force is going to be used." dropdown="" fullname="Maximum Particle Force" hidden="false" id="21" name="_MaximumParticleForce" order="18"/>
+        <boolean default="false" defaultValue="false" desc="If checked, the particles will be pushed at a random speed." dropdown="" fullname="Random Speed?" hidden="false" id="20" name="_RandomSpeed" order="17"/>
+        <text default="" defaultValue="" desc="Name of the particle, used for setting the particle type from the Particle List." dropdown="" fullname="Particle Name" hidden="true" id="23" name="_ParticleName" order="23"/>
+        <number default="0" defaultValue="0" desc="Minimum Force to push the particles." dropdown="" fullname="Minimum Particle Force" hidden="false" id="22" name="_MinimumParticleForce" order="19"/>
+        <boolean default="false" defaultValue="false" desc="If checked, will select the particles to be created based on the list." dropdown="" fullname="Random Particles?" hidden="false" id="25" name="_RandomParticles" order="4"/>
+        <list default="list" defaultValue="list" desc="List with the name of the particles that can be created and its animation. Separate them with a comma.&lt;br&gt;&lt;br&gt;&#10;&#10;Example:&lt;br&gt;&#10;Star,Red Star" dropdown="" fullname="Particle List" hidden="false" id="24" name="_ParticleList" order="5"/>
+        <text default="" defaultValue="" desc="Animation of the particle." dropdown="" fullname="Particle Animation" hidden="false" id="26" name="_ParticleAnimation" order="3"/>
+        <blocks>
+            <receiver blockID="102" id="1"/>
+            <receiver blockID="64" id="2"/>
+        </blocks>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="StopEmitting" enabled="true" id="2" name="event-custom" order="2" repeats="true"/>
+            <event displayName="StartEmitting" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
+            <event displayName="EmitParticles" enabled="true" id="4" name="event-custom-block" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_20_20" classname="scripts.Design_20_20" desc="" description="" design="true" drawOrder="0" id="20" language="" name="Copy of BeaterMove" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="BeatPos" hidden="false" id="1" name="_BeatPos" order="1"/>
+        <sound default="" defaultValue="" desc="" dropdown="" fullname="Metronome" hidden="false" id="2" name="_Metronome" order="2"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Colliding?" hidden="false" id="3" name="_Colliding" order="3"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="TypeNumber" hidden="false" id="4" name="_TypeNumber" order="4"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="1" hidden="false" id="5" name="_1" order="5"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="2" hidden="false" id="6" name="_2" order="6"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="3" hidden="false" id="7" name="_3" order="7"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="4" hidden="false" id="8" name="_4" order="8"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="5" hidden="false" id="9" name="_5" order="9"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="6" hidden="false" id="10" name="_6" order="10"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Xincrementer" hidden="false" id="11" name="_Xincrementer" order="11"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Searcher" hidden="false" id="12" name="_Searcher" order="12"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="BeaterCombos" hidden="false" id="13" name="_BeaterCombos" order="13"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="OpacitiyMod" hidden="false" id="14" name="_OpacitiyMod" order="14"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <sound default="" defaultValue="" desc="" dropdown="" fullname="GemSound" hidden="false" id="15" name="_GemSound" order="15"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Bouncing?" hidden="false" id="17" name="_Bouncing" order="17"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="GemID" hidden="false" id="16" name="_GemID" order="16"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="StartX" hidden="false" id="19" name="_StartX" order="19"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="false" id="18" name="_Direction" order="18"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Position" hidden="false" id="21" name="_Position" order="21"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="StartY" hidden="false" id="20" name="_StartY" order="20"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ListX" hidden="false" id="23" name="_ListX" order="23"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Visible" hidden="false" id="22" name="_Visible" order="22"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="ActorNumber" hidden="false" id="25" name="_ActorNumber" order="25"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ListY" hidden="false" id="24" name="_ListY" order="24"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="SoundManager" hidden="false" id="26" name="_SoundManager" order="26"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="3" name="step" order="2" repeats="true"/>
+            <event displayName="SwipeUp" enabled="false" id="5" name="event-device-swipe" order="5" repeats="true"/>
+            <event displayName="SwipeDown" enabled="false" id="6" name="event-device-swipe" order="6" repeats="true"/>
+            <event displayName="SwipeLeft" enabled="false" id="7" name="event-device-swipe" order="7" repeats="true"/>
+            <event displayName="SwipeRight" enabled="false" id="8" name="event-device-swipe" order="8" repeats="true"/>
+            <event displayName="Reset" enabled="true" id="10" name="event-custom" order="10" repeats="true"/>
+            <event displayName="Collide" enabled="true" id="11" name="event-custom" order="11" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_23_23_corpes" classname="scripts.Design_23_23_corpes" desc="" description="" design="true" drawOrder="0" id="23" language="" name="corpes" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="NumberOnScreen" hidden="false" id="1" name="_NumberOnScreen" order="1"/>
+        <sound default="" defaultValue="" desc="" dropdown="" fullname="CoinDrop" hidden="false" id="2" name="_CoinDrop" order="2"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_65" classname="scripts.ActorEvents_65" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="22" language="" name="ActorEvents_65" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="25" language="" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_24_24_LevelManager" classname="scripts.Design_24_24_LevelManager" desc="" description="" design="true" drawOrder="0" id="24" language="" name="Level Manager" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_27_27_MenuStar" classname="scripts.Design_27_27_MenuStar" desc="" description="" design="true" drawOrder="0" id="27" language="" name="MenuStar" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="LevelID" hidden="false" id="1" name="_LevelID" order="1"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="WinConditions" hidden="false" id="2" name="_WinConditions" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="WinConditionMod" hidden="false" id="3" name="_WinConditionMod" order="3"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="2" name="draw" order="4" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="3" name="event-mouse-enter-exit-actor" order="2" repeats="true"/>
+            <event displayName="GenerateLevel" enabled="true" id="4" name="event-custom" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_85" classname="scripts.ActorEvents_85" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="26" language="" name="ActorEvents_85" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_97" classname="scripts.ActorEvents_97" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="29" language="" name="ActorEvents_97" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_95" classname="scripts.ActorEvents_95" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="28" language="" name="ActorEvents_95" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_101" classname="scripts.ActorEvents_101" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="31" language="" name="ActorEvents_101" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_2" classname="scripts.SceneEvents_2" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="30" language="" name="SceneEvents_2" oid="-1" package="scripts." sceneid="2" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_3" classname="scripts.SceneEvents_3" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="34" language="" name="SceneEvents_3" oid="-1" package="scripts." sceneid="3" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_103" classname="scripts.ActorEvents_103" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="35" language="" name="ActorEvents_103" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_32_32_CursorBounce" classname="scripts.Design_32_32_CursorBounce" desc="" description="" design="true" drawOrder="0" id="32" language="" name="CursorBounce" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_33_33" classname="scripts.Design_33_33" desc="" description="" design="true" drawOrder="0" id="33" language="" name="MenuMetronome" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="BeatCheck" hidden="true" id="1" name="_BeatCheck" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BeatRemainder" hidden="true" id="2" name="_BeatRemainder" order="1"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Go" hidden="true" id="3" name="_Go" order="2"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="SceneTempo" hidden="false" id="4" name="_SceneTempo" order="3"/>
+        <sound default="" defaultValue="" desc="" dropdown="" fullname="SceneTrack" hidden="false" id="5" name="_SceneTrack" order="4"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="SceneTimeSignature" hidden="false" id="6" name="_SceneTimeSignature" order="5"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="MeasureNumber" hidden="false" id="7" name="_MeasureNumber" order="6"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="TimeElapsed" hidden="false" id="8" name="_TimeElapsed" order="7"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="TimeStart" hidden="false" id="9" name="_TimeStart" order="8"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="CurrentTime" hidden="false" id="11" name="_CurrentTime" order="9"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="BeatPos" hidden="false" id="12" name="_BeatPos" order="10"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+            <event displayName="Go" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
+            <event displayName="Drawing" enabled="false" id="4" name="draw" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_38_38_CombotxtLife" classname="scripts.Design_38_38_CombotxtLife" desc="" description="" design="true" drawOrder="0" id="38" language="" name="CombotxtLife" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="combonumber" hidden="true" id="1" name="_combonumber" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="opacity" hidden="true" id="2" name="_opacity" order="2"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="3" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_119" classname="scripts.ActorEvents_119" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="39" language="" name="ActorEvents_119" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_36_36_MainMenuMoveCursor" classname="scripts.Design_36_36_MainMenuMoveCursor" desc="" description="" design="true" drawOrder="0" id="36" language="" name="MainMenuMoveCursor" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Cursor" hidden="false" id="1" name="_Cursor" order="0"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="Glyph" hidden="false" id="2" name="_Glyph" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_105" classname="scripts.ActorEvents_105" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="37" language="" name="ActorEvents_105" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_42_42_backgroundBounce" classname="scripts.Design_42_42_backgroundBounce" desc="" description="" design="true" drawOrder="0" id="42" language="" name="backgroundBounce" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_125" classname="scripts.ActorEvents_125" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="43" language="" name="ActorEvents_125" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_40_40" classname="scripts.Design_40_40" desc="" description="" design="true" drawOrder="0" id="40" language="" name="ComboShoutss" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="combonumber" hidden="true" id="1" name="_combonumber" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="opacity" hidden="true" id="2" name="_opacity" order="2"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="3" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_121" classname="scripts.ActorEvents_121" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="41" language="" name="ActorEvents_121" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_127" classname="scripts.ActorEvents_127" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="46" language="" name="ActorEvents_127" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_47_47" classname="scripts.Design_47_47" desc="" description="" design="true" drawOrder="0" id="47" language="" name="WormParticles1" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="NumberOnScreen" hidden="false" id="1" name="_NumberOnScreen" order="1"/>
+        <sound default="" defaultValue="" desc="" dropdown="" fullname="CoinDrop" hidden="false" id="2" name="_CoinDrop" order="2"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_44_44_WormHole" classname="scripts.Design_44_44_WormHole" desc="" description="" design="true" drawOrder="0" id="44" language="" name="WormHole" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="OGSize" hidden="false" id="1" name="_OGSize" order="1"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Xpos" hidden="false" id="2" name="_Xpos" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="YPos" hidden="false" id="3" name="_YPos" order="3"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="opacity" hidden="false" id="4" name="_opacity" order="4"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_45_45" classname="scripts.Design_45_45" desc="Will make the actor spawn another actor type at fixed intervals. It has options for spawning at a random offset or in a circumference and different movement modes for the particles.&lt;br&gt;&lt;br&gt;You can activate and deactivate this behavior from other behaviors, by using the triggers StartEmitting and StopEmitting, respectively.&lt;br&gt;&lt;br&gt;&#10;Comes with a  custom block that uses the Random spawn mode and To Angle movement mode." description="Will make the actor spawn another actor type at fixed intervals. It has options for spawning at a random offset or in a circumference and different movement modes for the particles.&lt;br&gt;&lt;br&gt;You can activate and deactivate this behavior from other behaviors, by using the triggers StartEmitting and StopEmitting, respectively.&lt;br&gt;&lt;br&gt;&#10;Comes with a  custom block that uses the Random spawn mode and To Angle movement mode." design="true" drawOrder="0" id="45" language="" name="Worm Particles" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actortype default="" defaultValue="" desc="The type of particle to emit. It will be created in a random position, based on the actor's position, and the maximum and minimum offset values." dropdown="" fullname="Particle Type" hidden="false" id="1" name="_ParticleType" order="2"/>
+        <number default="0.0" defaultValue="0.0" desc="X Minimum Offset if Random mode is selected." dropdown="" fullname="X Minimum Offset" hidden="false" id="2" name="_XMinimumOffset" order="9"/>
+        <number default="0.0" defaultValue="0.0" desc="X Maximum Offset if Random mode is selected." dropdown="" fullname="X Maximum Offset" hidden="false" id="3" name="_XMaximumOffset" order="10"/>
+        <number default="0.0" defaultValue="0.0" desc="Y Minimum Offset if Random mode is selected." dropdown="" fullname="Y Minimum Offset" hidden="false" id="4" name="_YMinimumOffset" order="11"/>
+        <number default="0.0" defaultValue="0.0" desc="X Maximum Offset if Random mode is selected." dropdown="" fullname="Y Maximum Offset" hidden="false" id="5" name="_YMaximumOffset" order="12"/>
+        <text default="" defaultValue="" desc="The type of movement the particles will perform:&lt;br&gt;&lt;br&gt;&#10;To Angle: the particles will go towards the specified angle.&lt;br&gt;&#10;Expand: the particles will go away from the actor.&lt;br&gt;&#10;To Center: the particles will go to the center of the actor.&lt;br&gt;&#10;To Point: the particles will go to a specific point based on the actor's position and an offset.&lt;br&gt;&#10;No Movement: The particle won't move&lt;br&gt;&lt;br&gt;&#10;Tip 1: Select random and make all the Offset values to match the center of the actor for a centralized expand effect.&lt;br&gt;&#10;Tip 2: You can make the particle actor affected by gravity for a different effect." dropdown="To Angle=To Angle&#10;Expand=Expand&#10;To Center=To Center&#10;To Point=To Point&#10;No Movement=No Movement" fullname="Movement Mode" hidden="false" id="6" name="_MovementMode" order="13"/>
+        <boolean default="true" defaultValue="true" desc="If checked, the actor will start the scene emitting particles." dropdown="" fullname="Activated" hidden="false" id="7" name="_Activated" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="Delay between particles." dropdown="" fullname="Particle Delay" hidden="false" id="8" name="_ParticleDelay" order="21"/>
+        <boolean default="false" defaultValue="false" desc="Boolean that checks when a particle is created." dropdown="" fullname="Handle Particle" hidden="true" id="9" name="_HandleParticle" order="22"/>
+        <number default="0.0" defaultValue="0.0" desc="Force to push the particles." dropdown="" fullname="Particle Force" hidden="true" id="10" name="_ParticleForce" order="20"/>
+        <number default="0.0" defaultValue="0.0" desc="A special type of offset. If you select To Point mode, you can make the particles travel to a specific point based on the actor's coordinates and this offset." dropdown="" fullname="To Point X Offset" hidden="false" id="11" name="_ToPointXOffset" order="15"/>
+        <number default="0.0" defaultValue="0.0" desc="A special type of offset. If you select To Point mode, you can make the particles travel to a specific point based on the actor's coordinates and this offset." dropdown="" fullname="To Point Y Offset" hidden="false" id="12" name="_ToPointYOffset" order="16"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0.0" defaultValue="0.0" desc="Radius of the perimeter if Perimeter mode is set." dropdown="" fullname="Radius" hidden="false" id="17" name="_Radius" order="8"/>
+        <text default="" defaultValue="" desc="How will the particles be spawned:&lt;br&gt;&#10;Random: Spawn at a random offset based on the minimum and maximum offsets.&lt;br&gt;&#10;Perimeter: Spawn at a perimeter around the actor." dropdown="Random=Random&#10;Perimeter=Perimeter" fullname="Spawn Modes" hidden="false" id="16" name="_SpawnModes" order="6"/>
+        <number default="0.0" defaultValue="0.0" desc="Angle to move if the Movement Mode is set &quot;To Angle&quot;.&lt;br&gt;&lt;br&gt;&#10;For reference:&lt;br&gt;&#10;- 270 = Up&lt;br&gt;&#10;- 0 = Right&lt;br&gt;&#10;- 90 = Down&lt;br&gt;&#10;- 180 = Left" dropdown="" fullname="Angle to Move" hidden="false" id="19" name="_AngletoMove" order="14"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Random Angle" hidden="true" id="18" name="_RandomAngle" order="7"/>
+        <number default="0.0" defaultValue="0.0" desc="Maximum force to push the particles. If Random Speed is not checked, Maximum Particle Force is going to be used." dropdown="" fullname="Maximum Particle Force" hidden="false" id="21" name="_MaximumParticleForce" order="18"/>
+        <boolean default="false" defaultValue="false" desc="If checked, the particles will be pushed at a random speed." dropdown="" fullname="Random Speed?" hidden="false" id="20" name="_RandomSpeed" order="17"/>
+        <text default="" defaultValue="" desc="Name of the particle, used for setting the particle type from the Particle List." dropdown="" fullname="Particle Name" hidden="true" id="23" name="_ParticleName" order="23"/>
+        <number default="0" defaultValue="0" desc="Minimum Force to push the particles." dropdown="" fullname="Minimum Particle Force" hidden="false" id="22" name="_MinimumParticleForce" order="19"/>
+        <boolean default="false" defaultValue="false" desc="If checked, will select the particles to be created based on the list." dropdown="" fullname="Random Particles?" hidden="false" id="25" name="_RandomParticles" order="4"/>
+        <list default="list" defaultValue="list" desc="List with the name of the particles that can be created and its animation. Separate them with a comma.&lt;br&gt;&lt;br&gt;&#10;&#10;Example:&lt;br&gt;&#10;Star,Red Star" dropdown="" fullname="Particle List" hidden="false" id="24" name="_ParticleList" order="5"/>
+        <text default="" defaultValue="" desc="Animation of the particle." dropdown="" fullname="Particle Animation" hidden="false" id="26" name="_ParticleAnimation" order="3"/>
+        <blocks>
+            <receiver blockID="102" id="1"/>
+            <receiver blockID="64" id="2"/>
+        </blocks>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="StopEmitting" enabled="true" id="2" name="event-custom" order="2" repeats="true"/>
+            <event displayName="StartEmitting" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
+            <event displayName="EmitParticles" enabled="true" id="4" name="event-custom-block" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_49_49" classname="scripts.Design_49_49" desc="" description="" design="true" drawOrder="0" id="49" language="" name="WormShouts" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="combonumber" hidden="true" id="1" name="_combonumber" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="opacity" hidden="true" id="2" name="_opacity" order="2"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="3" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_130" classname="scripts.ActorEvents_130" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="48" language="" name="ActorEvents_130" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+</pack>

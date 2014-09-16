@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<game accelFramerate="0" adsPosition="0" aheight="480" airCert="" airPass="" androidAlias="playpen" androidCert="C:\Users\Joe/AppData/Roaming/Stencyl/stencylworks\android-sdk\\android-sdk-windows\stencyl.keystore" androidMinVersion="0" androidPassword="epiglottis" androidPublicKey="" androidTargetVersion="7" antialias="true" appName="Unitl All" appType="0" author="" authorURL="" autoRotate="true" awidth="320" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" borderColor="-12303292" borderThickness="2" bundleID="hk.com.playpenstudios.untilall" bundleVersion="1.0" checksum="none" cpmID="" cws-desc="Description" cws-icon128="" cws-icon16="" cws-name="Name" cws-version="1.0" default="3" defaultFramerate="60" defaultSceneID="3" desc="" desktopScale="1.0" desktopScaleMode="0" deviceOS="5.0" disableBackButton="true" enablePurchases="false" engine="0" format="2.0" gameid="-1" haxeExtras="" height="480" internalVersion="1" internalVersionIOS="1" kit="false" lockURL="" macBundleID="com.yourcompany.gamename" maxScaleAndroid="4.0" maxScaleDesktop="1.0" maxScaleIOS="4.0" maxScaleWeb="1.0" metroColor="-12566464" mochi="" multitouch="true" name="BC15092014b" ngID="" ngKey="" orientation="0" p12="/Users/Joe/Desktop/Certificates.p12" p12pwd="epiglottis" physicsMode="0" preloaderstyle="0" products="" prov-adhoc="/Users/Joe/Downloads/UntilAll.mobileprovision" prov-store="/Users/Joe/Downloads/ios_distribution (1).cer" scale="1" scaleModeAndroid="5" scaleModeDesktop="0" scaleModeIOS="5" scaleModeWeb="0" showAds="false" simulatorOS="5.0" splashStyle="2" startInFullScreenDesktop="false" startInFullScreenWeb="false" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" useGlossyIcon="false" webScale="1.0" whirlKey="" width="320" windowsAppName="" windowsAuthor="" windowsBundleID="com.yourcompany.gamename">
+    <exts>
+        <e enabled="false" id="test-native"/>
+        <e enabled="true" id="list-utils"/>
+        <e enabled="false" id="test"/>
+        <e enabled="false" id="label"/>
+        <e enabled="false" id="test-flash"/>
+        <e enabled="true" id="2DList"/>
+        <e enabled="true" id="tileapi"/>
+    </exts>
+    <scales>
+        <scale detailed="Standard (1x)" id="0" name="1x" size="1.0"/>
+        <scale detailed="Enhanced (1.5x)" id="1" name="1.5x" size="1.5"/>
+        <scale detailed="High (2x)" id="2" name="2x" size="2.0"/>
+        <scale detailed="Highest (4x)" id="3" name="4x" size="4.0"/>
+    </scales>
+    <folders/>
+    <packs/>
+    <groups>
+        <group desc="" id="4" name="Beaters"/>
+    </groups>
+    <cgroups>
+        <cgroup g1="4" g2="0"/>
+        <cgroup g1="4" g2="3"/>
+        <cgroup g1="0" g2="0"/>
+        <cgroup g1="0" g2="3"/>
+        <cgroup g1="3" g2="3"/>
+    </cgroups>
+    <input>
+        <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
+        <key id="1" keyname="DOWN" name="down" vk="40" vks="40"/>
+        <key id="2" keyname="LEFT" name="left" vk="37" vks="37"/>
+        <key id="3" keyname="RIGHT" name="right" vk="39" vks="39"/>
+        <key id="4" keyname="Z" name="action1" vk="90" vks="90"/>
+        <key id="5" keyname="X" name="action2" vk="88" vks="88"/>
+        <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
+        <key id="7" keyname="W" name="w" vk="87" vks="87"/>
+        <key id="8" keyname="A" name="a1" vk="65" vks="65"/>
+        <key id="9" keyname="S" name="Key s" vk="83" vks="83"/>
+        <key id="10" keyname="D" name="Key d" vk="68" vks="68"/>
+    </input>
+    <attcats>
+        <cat id="-1" name="Default"/>
+    </attcats>
+    <props/>
+    <attributes>
+        <number cid="-1" id="18" name="DIRECTION" save="true" value="0.0"/>
+        <number cid="-1" id="41" name="GridBoundY" save="true" value="0.0"/>
+        <number cid="-1" id="20" name="BeaterCombo" save="true" value="0.0"/>
+        <number cid="-1" id="40" name="GridBoundX" save="true" value="0.0"/>
+        <number cid="-1" id="14" name="GameMeasureNumber" save="true" value="0.0"/>
+        <number cid="-1" id="3" name="TileY" save="true" value="0.0"/>
+        <number cid="-1" id="37" name="GridXPosition" save="true" value="0.0"/>
+        <list cid="-1" id="17" name="BPS" save="true" val="list"/>
+        <number cid="-1" id="2" name="TileX" save="true" value="0.0"/>
+        <bool cid="-1" id="34" name="ScoreInMoves" save="true" value="false"/>
+        <list cid="-1" id="36" name="ColorTargets" save="true" val="list"/>
+        <number cid="-1" id="28" name="Moves Counter" save="true" value="0.0"/>
+        <bool cid="-1" id="45" name="intapmode" save="true" value="false"/>
+        <number cid="-1" id="32" name="ScoreTarget" save="true" value="0.0"/>
+        <bool cid="-1" id="42" name="Tappings" save="true" value="false"/>
+        <number cid="-1" id="6" name="Time Since Last Match" save="true" value="0.0"/>
+        <list cid="-1" id="8" name="KillList" save="true" val="list"/>
+        <bool cid="-1" id="13" name="GameBeatWindow" save="true" value="false"/>
+        <list cid="-1" id="21" name="HintList" save="true" val="list"/>
+        <number cid="-1" id="33" name="MovesTarget" save="true" value="0.0"/>
+        <number cid="-1" id="39" name="GridYPosition" save="true" value="0.0"/>
+        <number cid="-1" id="30" name="SoundManager" save="true" value="0.0"/>
+        <bool cid="-1" id="29" name="RegionCreated?" save="true" value="false"/>
+        <number cid="-1" id="22" name="ColorMatch1" save="true" value="0.0"/>
+        <number cid="-1" id="11" name="GameBeatPosition" save="true" value="0.0"/>
+        <number cid="-1" id="31" name="LevelID_Gen" save="true" value="0.0"/>
+        <number cid="-1" id="4" name="spawnX" save="true" value="0.0"/>
+        <number cid="-1" id="15" name="Grid Spacing" save="true" value="0.0"/>
+        <number cid="-1" id="5" name="spawnY" save="true" value="0.0"/>
+        <number cid="-1" id="27" name="ColorMatch6" save="true" value="0.0"/>
+        <number cid="-1" id="12" name="GameBeatsPerMeasure" save="true" value="0.0"/>
+        <bool cid="-1" id="44" name="OnBeat" save="true" value="false"/>
+        <number cid="-1" id="7" name="GameTempo" save="true" value="0.0"/>
+        <number cid="-1" id="23" name="ColorMatch2" save="true" value="0.0"/>
+        <number cid="-1" id="38" name="fixedGT" save="true" value="0.0"/>
+        <number cid="-1" id="24" name="ColorMatch3" save="true" value="0.0"/>
+        <bool cid="-1" id="16" name="Started?" save="true" value="false"/>
+        <number cid="-1" id="25" name="ColorMatch4" save="true" value="0.0"/>
+        <number cid="-1" id="1" name="GridY" save="true" value="0.0"/>
+        <number cid="-1" id="19" name="TypeNumber" save="true" value="0.0"/>
+        <number cid="-1" id="0" name="GridX" save="true" value="0.0"/>
+        <number cid="-1" id="26" name="ColorMatch5" save="true" value="0.0"/>
+        <bool cid="-1" id="43" name="TapMode" save="true" value="false"/>
+        <number cid="-1" id="9" name="GemID" save="true" value="0.0"/>
+        <bool cid="-1" id="10" name="Swapping?" save="true" value="false"/>
+        <bool cid="-1" id="35" name="ColorMatchInMoves" save="true" value="false"/>
+    </attributes>
+    <collisions>
+        <poly id="1" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="2" name="Tri 45R" pts="0.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="3" name="Tri 45L" pts="1.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="4" name="Tri 45R Inv" pts="0.0,0.0#0.0,1.0#1.0,0.0"/>
+        <poly id="5" name="Tri 45L Inv" pts="0.0,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="6" name="Tri 30R" pts="0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="7" name="Tri 30L" pts="0.0,0.5#0.0,1.0#1.0,1.0"/>
+        <poly id="8" name="Tri 30-2R" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="9" name="Tri 30-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="10" name="Tri 30R Inv" pts="0.0,0.0#1.0,0.5#1.0,0.0"/>
+        <poly id="11" name="Tri 30L Inv" pts="0.0,0.0#0.0,0.5#1.0,0.0"/>
+        <poly id="12" name="Tri 30-2R Inv" pts="0.0,0.0#0.0,0.5#1.0,1.0#1.0,0.0"/>
+        <poly id="13" name="Tri 30-2L Inv" pts="0.0,0.0#0.0,1.0#1.0,0.5#1.0,0.0"/>
+        <poly id="14" name="Tri 60R" pts="0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="15" name="Tri 60L" pts="0.0,0.0#0.0,1.0#0.5,1.0"/>
+        <poly id="17" name="Tri 60-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#0.5,0.0"/>
+        <poly id="16" name="Tri 60-2R" pts="0.5,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="19" name="Tri 60L Inv" pts="0.0,0.0#0.0,1.0#0.5,0.0"/>
+        <poly id="18" name="Tri 60R Inv" pts="0.5,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="21" name="Tri 60-2L Inv" pts="0.0,0.0#0.0,1.0#0.5,1.0#1.0,0.0"/>
+        <poly id="20" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+    </collisions>
+    <atlases>
+        <atlas dirty="true" id="0" members="0,2,14,58,65,85,95,97,101,103,105,119,121,125,127,130,99,100,129,36,54,55,5,6,7,8,9,10,11,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,56,57,60,61,62,63,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,88,89,90,91,92,93,94,117,118,123,124," name="Main Atlas" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" start="true" target="0"/>
+    </atlases>
+    <libraries/>
+</game>

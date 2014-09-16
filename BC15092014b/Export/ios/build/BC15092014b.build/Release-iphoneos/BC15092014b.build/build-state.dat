@@ -1,0 +1,597 @@
+TBC15092014b
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/BC15092014b.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Info.plist BC15092014b/BC15092014b-Info.plist
+cCpResource BC15092014b/assets build/Release-iphoneos/BC15092014b.app/assets
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon.png BC15092014b/Icon.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-72.png BC15092014b/Icon-72.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon@2x.png BC15092014b/Icon@2x.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-72@2x.png BC15092014b/Icon-72@2x.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-60.png BC15092014b/Icon-60.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-60@2x.png BC15092014b/Icon-60@2x.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-76.png BC15092014b/Icon-76.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-76@2x.png BC15092014b/Icon-76@2x.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default.png BC15092014b/Default.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Portrait.png BC15092014b/Default-Portrait.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Portrait@2x.png BC15092014b/Default-Portrait@2x.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default@2x.png BC15092014b/Default@2x.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Landscape@2x.png BC15092014b/Default-Landscape@2x.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Landscape.png BC15092014b/Default-Landscape.png
+cCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-568h@2x.png BC15092014b/Default-568h@2x.png
+cProcessPCH++ /var/folders/w7/h9m1dlrd79g0b9kkgktm8cx40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BC15092014b-Prefix-bjtscwwuzqmnibewcnqzoxmkdwaw/BC15092014b-Prefix.pch.pth BC15092014b/BC15092014b-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BC15092014b.build/Release-iphoneos/BC15092014b.build/Objects-normal/armv7/Main.o /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Classes/Main.mm normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/BC15092014b normal armv7
+cGenerateDSYMFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app.dSYM /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/BC15092014b
+cProcessProductPackaging "/Users/Joe/Library/MobileDevice/Provisioning Profiles/d49b74e7-d51b-44b0-92e8-61198b46f8fd.mobileprovision" /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/Joe/Library/MobileDevice/Provisioning Profiles/d49b74e7-d51b-44b0-92e8-61198b46f8fd.mobileprovision" /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/embedded.mobileprovision
+cTouch /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b.xcent
+cCodeSign /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app
+cValidate /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c00000000540467B500000000000001A7
+t1409574837
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c00000000540467B500000000000001E5
+t1409574837
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000540467B6000000000036CDF0
+t1409574838
+s3591664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000540467B600000000006B1F40
+t1409574838
+s7020352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000540467B500000000000FE270
+t1409574837
+s1041008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000540467B60000000000322700
+t1409574838
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000540467B6000000000062AD10
+t1409574838
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000540467B600000000000015F7
+t1409574838
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c00000000540467B6000000000057EE50
+t1409574838
+s5762640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c00000000540467B6000000000005C570
+t1409574838
+s378224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000540467B60000000000024190
+t1409574838
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000540467B700000000003596B0
+t1409574839
+s3511984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c00000000540467B600000000000495D0
+t1409574838
+s300496
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000540467B700000000000CAFB0
+t1409574839
+s831408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000540467B60000000000000E8D
+t1409574838
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000540467B800000000011BCDF0
+t1409574840
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+c00000000540467B6000000000005E840
+t1409574838
+s387136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c00000000540467B90000000000001B73
+t1409574841
+s7027
+
+N/Users/Joe/Library/MobileDevice/Provisioning Profiles/d49b74e7-d51b-44b0-92e8-61198b46f8fd.mobileprovision
+c00000000540462520000000000002036
+t1409573458
+s8246
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/BC15092014b-Prefix.pch
+c000000005417F3D50000000000000145
+t1410855893
+s325
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Classes/Main.mm
+c000000005417F3E100000000000006DD
+t1410855905
+s1757
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-568h@2x.png
+c000000005417F3D50000000000110962
+t1410855893
+s1116514
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Landscape.png
+c000000005417F3D500000000000795FA
+t1410855893
+s497146
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Landscape@2x.png
+c000000005417F3D500000000000795FA
+t1410855893
+s497146
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Portrait.png
+c000000005417F3D50000000000083673
+t1410855893
+s538227
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Portrait@2x.png
+c000000005417F3D50000000000083673
+t1410855893
+s538227
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default.png
+c000000005417F3D5000000000000DF17
+t1410855893
+s57111
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default@2x.png
+c000000005417F3D50000000000026464
+t1410855893
+s156772
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-60.png
+c000000005417F3D50000000000000ADF
+t1410855893
+s2783
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-60@2x.png
+c000000005417F3D500000000000005C1
+t1410855893
+s1473
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-72.png
+c000000005417F3D50000000000000601
+t1410855893
+s1537
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-72@2x.png
+c000000005417F3D50000000000000AD2
+t1410855893
+s2770
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-76.png
+c000000005417F3D50000000000000576
+t1410855893
+s1398
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-76@2x.png
+c000000005417F3D5000000000000073F
+t1410855893
+s1855
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon.png
+c000000005417F3D5000000000000050F
+t1410855893
+s1295
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon@2x.png
+c000000005417F3D500000000000008C2
+t1410855893
+s2242
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/assets
+c000000005417D37C0000000000001E6A
+t1410847612
+s7786
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b.xcent
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/Objects-normal/armv7/BC15092014b.LinkFileList
+c000000005417F3E90000000000000096
+t1410855913
+s150
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/Objects-normal/armv7/Main.o
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app.dSYM
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/BC15092014b
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Landscape.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Landscape@2x.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Portrait.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Portrait@2x.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default@2x.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-60.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-60@2x.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-72.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-72@2x.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-76.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-76@2x.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon@2x.png
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Info.plist
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/PkgInfo
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/ResourceRules.plist
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/assets
+t2
+s0
+
+N/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/embedded.mobileprovision
+t2
+s0
+
+N/var/folders/w7/h9m1dlrd79g0b9kkgktm8cx40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BC15092014b-Prefix-bjtscwwuzqmnibewcnqzoxmkdwaw/BC15092014b-Prefix.pch.pth
+t1410854040
+s113860
+
+NBC15092014b/BC15092014b-Info.plist
+c000000005417F3D50000000000000A70
+t1410855893
+s2672
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7f30bc692bc8b941^950fbd692bc8b941^---0#1#0#--18"Check dependencies36"B71EA63E-8E04-48AE-B334-A0894833C158-
+
+CCodeSign /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app
+s432548718.760283
+e432548722.401651
+r1
+xCodeSign
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"CodeSign build/Release-iphoneos/BC15092014b.app6bbac26e2bc8b941^56d266722bc8b941^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/0000000000000000^1026"CodeSign build/Release-iphoneos/BC15092014b.app    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 4c50c5109e3ae309ec79bab16c32cbe7f02595ab --resource-rules=/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/ResourceRules.plist --entitlements /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b.xcent /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app36"E8C63EF4-C86F-46CE-9E26-C92EC33D4AAD-
+
+CCompileC build/BC15092014b.build/Release-iphoneos/BC15092014b.build/Objects-normal/armv7/Main.o /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Classes/Main.mm normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s432548718.132945
+e432548718.158143
+r1
+xCompileC
+xbuild/BC15092014b.build/Release-iphoneos/BC15092014b.build/Objects-normal/armv7/Main.o
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Classes/Main.mm
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Classes/Main.mmce33226e2bc8b941^dd7b286e2bc8b941^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Classes/Main.mm0000000000000000^3752"CompileC build/BC15092014b.build/Release-iphoneos/BC15092014b.build/Objects-normal/armv7/Main.o BC15092014b/Classes/Main.mm normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -std=gnu++11 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5 -iquote /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b-generated-files.hmap -I/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b-own-target-headers.hmap -I/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b-all-target-headers.hmap -iquote /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b-project-headers.hmap -I/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/DerivedSources/armv7 -I/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/DerivedSources -F/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/w7/h9m1dlrd79g0b9kkgktm8cx40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BC15092014b-Prefix-bjtscwwuzqmnibewcnqzoxmkdwaw/BC15092014b-Prefix.pch -MMD -MT dependencies -MF /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/Objects-normal/armv7/Main.d --serialize-diagnostics /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/Objects-normal/armv7/Main.dia -c /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Classes/Main.mm -o /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/Objects-normal/armv7/Main.o36"6C9DD295-2244-4311-ADE9-397B45A86324-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-568h@2x.png BC15092014b/Default-568h@2x.png
+s432548713.829403
+e432548714.260544
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-568h@2x.png
+xBC15092014b/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Default-568h@2x.png BC15092014b/Default-568h@2x.png317cd4692bc8b941^8eb2426a2bc8b941^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-568h@2x.png0000000000000000^810"CopyPNGFile "build/Release-iphoneos/BC15092014b.app/Default-568h@2x.png" "BC15092014b/Default-568h@2x.png"    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-568h@2x.png" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-568h@2x.png"36"6D8EC36F-4781-436E-BDC2-F80D63AE7896-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Landscape.png BC15092014b/Default-Landscape.png
+s432548713.801571
+e432548717.172434
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Landscape.png
+xBC15092014b/Default-Landscape.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Default-Landscape.png BC15092014b/Default-Landscape.png4b56cd692bc8b941^70242c6d2bc8b941^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Landscape.png0000000000000000^810"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Default-Landscape.png BC15092014b/Default-Landscape.png    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Landscape.png /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Landscape.png36"1D8A65A0-CF2C-402D-92A9-784808298A82-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Landscape@2x.png BC15092014b/Default-Landscape@2x.png
+s432548713.801560
+e432548716.991960
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Landscape@2x.png
+xBC15092014b/Default-Landscape@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Default-Landscape@2x.png BC15092014b/Default-Landscape@2x.png5c56cd692bc8b941^6ff0fd6c2bc8b941^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Landscape@2x.png0000000000000000^830"CopyPNGFile "build/Release-iphoneos/BC15092014b.app/Default-Landscape@2x.png" "BC15092014b/Default-Landscape@2x.png"    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Landscape@2x.png" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Landscape@2x.png"36"ABBE42F2-D24B-4D13-859C-23A2B7587268-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Portrait.png BC15092014b/Default-Portrait.png
+s432548713.799587
+e432548718.102549
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Portrait.png
+xBC15092014b/Default-Portrait.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Default-Portrait.png BC15092014b/Default-Portrait.png68cccc692bc8b941^31441a6e2bc8b941^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Portrait.png0000000000000000^806"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Default-Portrait.png BC15092014b/Default-Portrait.png    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Portrait.png /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Portrait.png36"DE66D8DB-B6A9-49C0-A2D0-D31B85C309A0-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Portrait@2x.png BC15092014b/Default-Portrait@2x.png
+s432548713.799592
+e432548718.061028
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Portrait@2x.png
+xBC15092014b/Default-Portrait@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Default-Portrait@2x.png BC15092014b/Default-Portrait@2x.png3cdacc692bc8b941^889f0f6e2bc8b941^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Portrait@2x.png0000000000000000^826"CopyPNGFile "build/Release-iphoneos/BC15092014b.app/Default-Portrait@2x.png" "BC15092014b/Default-Portrait@2x.png"    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default-Portrait@2x.png" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default-Portrait@2x.png"36"8612A0DF-602A-4606-ABC4-3EBC28DA01DA-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default.png BC15092014b/Default.png
+s432548713.795781
+e432548714.414282
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default.png
+xBC15092014b/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Default.png BC15092014b/Default.png4ed3cb692bc8b941^8c106a6a2bc8b941^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default.png0000000000000000^770"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Default.png BC15092014b/Default.png    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default.png /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default.png36"45C0E387-597D-4FCD-9B6F-612EA02057FD-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default@2x.png BC15092014b/Default@2x.png
+s432548713.799596
+e432548715.562256
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default@2x.png
+xBC15092014b/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Default@2x.png BC15092014b/Default@2x.png21cdcc692bc8b941^56f08f6b2bc8b941^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default@2x.png0000000000000000^790"CopyPNGFile "build/Release-iphoneos/BC15092014b.app/Default@2x.png" "BC15092014b/Default@2x.png"    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Default@2x.png" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Default@2x.png"36"FB157B0E-4F53-4558-8F6F-0BB09A032008-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-60.png BC15092014b/Icon-60.png
+s432548713.758853
+e432548713.800629
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-60.png
+xBC15092014b/Icon-60.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon-60.png BC15092014b/Icon-60.png7b69c2692bc8b941^d3f5cc692bc8b941^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-60.png0000000000000000^770"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon-60.png BC15092014b/Icon-60.png    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-60.png /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-60.png36"39CC4032-A913-4401-AE90-E26EBA261308-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-60@2x.png BC15092014b/Icon-60@2x.png
+s432548713.758872
+e432548713.799057
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-60@2x.png
+xBC15092014b/Icon-60@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon-60@2x.png BC15092014b/Icon-60@2x.pngca6ac2692bc8b941^ef8ecc692bc8b941^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-60@2x.png0000000000000000^790"CopyPNGFile "build/Release-iphoneos/BC15092014b.app/Icon-60@2x.png" "BC15092014b/Icon-60@2x.png"    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-60@2x.png" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-60@2x.png"36"3B484B8F-B503-4CAC-B975-FFAB5E8F4E2C-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-72.png BC15092014b/Icon-72.png
+s432548713.758811
+e432548713.793449
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-72.png
+xBC15092014b/Icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon-72.png BC15092014b/Icon-72.png9467c2692bc8b941^d828cb692bc8b941^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-72.png0000000000000000^770"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon-72.png BC15092014b/Icon-72.png    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-72.png /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-72.png36"0706DF3D-43B3-4259-AB8A-EC5EFC5828B4-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-72@2x.png BC15092014b/Icon-72@2x.png
+s432548713.758835
+e432548713.794207
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-72@2x.png
+xBC15092014b/Icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon-72@2x.png BC15092014b/Icon-72@2x.png0569c2692bc8b941^3b54cb692bc8b941^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-72@2x.png0000000000000000^790"CopyPNGFile "build/Release-iphoneos/BC15092014b.app/Icon-72@2x.png" "BC15092014b/Icon-72@2x.png"    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-72@2x.png" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-72@2x.png"36"29796A50-2A45-4077-A564-403AD493EE7A-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-76.png BC15092014b/Icon-76.png
+s432548713.759180
+e432548713.798925
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-76.png
+xBC15092014b/Icon-76.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon-76.png BC15092014b/Icon-76.pngf67bc2692bc8b941^1686cc692bc8b941^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-76.png0000000000000000^770"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon-76.png BC15092014b/Icon-76.png    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-76.png /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-76.png36"73F2168B-CAB6-4168-A1E8-DD8EA6AAA69A-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-76@2x.png BC15092014b/Icon-76@2x.png
+s432548713.795152
+e432548713.828078
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-76@2x.png
+xBC15092014b/Icon-76@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon-76@2x.png BC15092014b/Icon-76@2x.png5bb5cb692bc8b941^8109d4692bc8b941^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-76@2x.png0000000000000000^790"CopyPNGFile "build/Release-iphoneos/BC15092014b.app/Icon-76@2x.png" "BC15092014b/Icon-76@2x.png"    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon-76@2x.png" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon-76@2x.png"36"4103E0C4-76FC-47F4-B2BE-FB3EFEB0262A-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon.png BC15092014b/Icon.png
+s432548713.758798
+e432548713.798448
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon.png
+xBC15092014b/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon.png BC15092014b/Icon.pngb56fc2692bc8b941^e067cc692bc8b941^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon.png0000000000000000^758"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon.png BC15092014b/Icon.png    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon.png /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon.png36"9904E6D8-C56D-4573-A89B-6654284316E4-
+
+CCopyPNGFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon@2x.png BC15092014b/Icon@2x.png
+s432548713.758820
+e432548713.800398
+r1
+xCopyPNGFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon@2x.png
+xBC15092014b/Icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/Release-iphoneos/BC15092014b.app/Icon@2x.png BC15092014b/Icon@2x.png016ac2692bc8b941^7de6cc692bc8b941^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon@2x.png0000000000000000^778"CopyPNGFile "build/Release-iphoneos/BC15092014b.app/Icon@2x.png" "BC15092014b/Icon@2x.png"    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/Icon@2x.png" "/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Icon@2x.png"36"96847E60-A74E-4823-8E12-ACD44DD19814-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/BC15092014b.app/ResourceRules.plist
+s432548713.744458
+e432548713.747534
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/BC15092014b.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Release-iphoneos/BC15092014b.app/ResourceRules.plist6bb6be692bc8b941^dd5dbf692bc8b941^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/ResourceRules.plist000000000080d041^1022"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/BC15092014b.app/ResourceRules.plist    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app36"7E4FA171-AC82-4386-9BE6-3E5F2E61F182-
+
+CCpResource BC15092014b/assets build/Release-iphoneos/BC15092014b.app/assets
+s432548713.758792
+e432548713.865172
+r1
+xCpResource
+xBC15092014b/assets
+xbuild/Release-iphoneos/BC15092014b.app/assets
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Release-iphoneos/BC15092014b.app/assets9068c2692bc8b941^fa7bdd692bc8b941^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/assets000000000080d041^866"CpResource BC15092014b/assets build/Release-iphoneos/BC15092014b.app/assets    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/assets /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app36"FF65500E-B49B-4A56-9144-D9668EE51348-
+
+CGenerateDSYMFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app.dSYM /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/BC15092014b
+s432548718.637576
+e432548718.702957
+r1
+xGenerateDSYMFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app.dSYM
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/BC15092014b
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Generate /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app.dSYM8f50a36e2bc8b941^baf4b36e2bc8b941^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app.dSYM000000000080d041^804"GenerateDSYMFile build/Release-iphoneos/BC15092014b.app.dSYM build/Release-iphoneos/BC15092014b.app/BC15092014b    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/BC15092014b -o /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app.dSYM36"27BB90DF-C390-428D-A81D-BBF6D9084B0C-
+
+CLd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/BC15092014b normal armv7
+s432548718.164809
+e432548718.631103
+r1
+xLd
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/BC15092014b
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Link /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/BC15092014b944c2a6e2bc8b941^1990a16e2bc8b941^---0#0#0#--1799"Ld build/Release-iphoneos/BC15092014b.app/BC15092014b normal armv7    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos -L/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/lib/armv7 -F/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos -filelist /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/Objects-normal/armv7/BC15092014b.LinkFileList -dead_strip -lstd -lregexp -lzlib -lcurl_ssl -lpng -ljpeg -lfreetype -logg -lvorbis -lnme -lstd -lregexp -lzlib -lcurl_ssl -lpng -ljpeg -lfreetype -logg -lvorbis -lnme -lads -lgamecenter -lnative -lpurchases -lApplicationMain -stdlib=libc++ -miphoneos-version-min=5 -framework UIKit -framework OpenAL -framework OpenGLES -framework QuartzCore -framework CoreAudio -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -framework Foundation -framework iAd -framework GameKit -framework SystemConfiguration -framework StoreKit -o /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/BC15092014b36"D2DEEC58-8476-408F-B752-89CB2B1B3EAF-
+
+CProcessInfoPlistFile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Info.plist BC15092014b/BC15092014b-Info.plist
+s432548713.744476
+e432548713.750335
+r1
+xProcessInfoPlistFile
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Info.plist
+xBC15092014b/BC15092014b-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process BC15092014b/BC15092014b-Info.plist4ab6be692bc8b941^7f15c0692bc8b941^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/BC15092014b-Info.plist0000000000000000^972"ProcessInfoPlistFile build/Release-iphoneos/BC15092014b.app/Info.plist BC15092014b/BC15092014b-Info.plist    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BC15092014b/BC15092014b-Info.plist -genpkginfo /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/ResourceRules.plist -o /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/Info.plist36"5EF27E6B-E954-45DA-80C9-385AD7789B26-
+
+CProcessPCH++ /var/folders/w7/h9m1dlrd79g0b9kkgktm8cx40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BC15092014b-Prefix-bjtscwwuzqmnibewcnqzoxmkdwaw/BC15092014b-Prefix.pch.pth BC15092014b/BC15092014b-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s432548718.110962
+e432548718.126185
+r1
+xProcessPCH++
+x/var/folders/w7/h9m1dlrd79g0b9kkgktm8cx40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BC15092014b-Prefix-bjtscwwuzqmnibewcnqzoxmkdwaw/BC15092014b-Prefix.pch.pth
+xBC15092014b/BC15092014b-Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile BC15092014b/BC15092014b-Prefix.pch45831c6e2bc8b941^344d206e2bc8b941^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/BC15092014b-Prefix.pch0000000000000000^3738"ProcessPCH++ /var/folders/w7/h9m1dlrd79g0b9kkgktm8cx40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BC15092014b-Prefix-bjtscwwuzqmnibewcnqzoxmkdwaw/BC15092014b-Prefix.pch.pth BC15092014b/BC15092014b-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch armv7 -fmessage-length=0 -std=gnu++11 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5 -iquote /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b-generated-files.hmap -I/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b-own-target-headers.hmap -I/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b-all-target-headers.hmap -iquote /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b-project-headers.hmap -I/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/DerivedSources/armv7 -I/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/DerivedSources -F/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/w7/h9m1dlrd79g0b9kkgktm8cx40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BC15092014b-Prefix-bjtscwwuzqmnibewcnqzoxmkdwaw/BC15092014b-Prefix.pch.dia -c /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/BC15092014b/BC15092014b-Prefix.pch -o /var/folders/w7/h9m1dlrd79g0b9kkgktm8cx40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BC15092014b-Prefix-bjtscwwuzqmnibewcnqzoxmkdwaw/BC15092014b-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/w7/h9m1dlrd79g0b9kkgktm8cx40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BC15092014b-Prefix-bjtscwwuzqmnibewcnqzoxmkdwaw/BC15092014b-Prefix.pch.d36"B386D126-E383-427E-B5BA-9B13E2172D1D-
+
+CProcessProductPackaging "/Users/Joe/Library/MobileDevice/Provisioning Profiles/d49b74e7-d51b-44b0-92e8-61198b46f8fd.mobileprovision" /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/embedded.mobileprovision
+s432548718.722462
+e432548718.725519
+r1
+xProcessProductPackaging
+x/Users/Joe/Library/MobileDevice/Provisioning Profiles/d49b74e7-d51b-44b0-92e8-61198b46f8fd.mobileprovision
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection196"ProcessProductPackaging "/Users/Joe/Library/MobileDevice/Provisioning Profiles/d49b74e7-d51b-44b0-92e8-61198b46f8fd.mobileprovision" build/Release-iphoneos/BC15092014b.app/embedded.mobileprovision3d10b96e2bc8b941^56bcb96e2bc8b941^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/embedded.mobileprovision0000000000000000^840"ProcessProductPackaging "/Users/Joe/Library/MobileDevice/Provisioning Profiles/d49b74e7-d51b-44b0-92e8-61198b46f8fd.mobileprovision" build/Release-iphoneos/BC15092014b.app/embedded.mobileprovision    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/Joe/Library/MobileDevice/Provisioning Profiles/d49b74e7-d51b-44b0-92e8-61198b46f8fd.mobileprovision" -o /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/embedded.mobileprovision36"F7EA51F1-2C6A-417F-9E9A-3D5DEBE426E6-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b.xcent
+s432548718.748911
+e432548718.751923
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection221"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b.xcent73d6bf6e2bc8b941^c37dc06e2bc8b941^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b.xcent000000000080d041^916"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b.xcent    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/BC15092014b.build/Release-iphoneos/BC15092014b.build/BC15092014b.xcent36"7DBDF16E-86A6-48C4-800F-F5F7B825EFBE-
+
+CTouch /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app
+s432548718.732999
+e432548718.740586
+r1
+xTouch
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Touch /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app2cbcbb6e2bc8b941^1c97bd6e2bc8b941^---0#0#0#--537"Touch build/Release-iphoneos/BC15092014b.app    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app36"09FAE585-9B2A-4978-BEFE-CA2AACD09C5B-
+
+CValidate /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app
+s432548722.409665
+e432548722.768857
+r1
+xValidate
+x/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Validate build/Release-iphoneos/BC15092014b.app4df568722bc8b941^aed3c4722bc8b941^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app/0000000000000000^681"Validate build/Release-iphoneos/BC15092014b.app    cd /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Stencyl-full/plaf/neko-mac:/Applications/Stencyl-full/plaf/haxe:/Applications/Stencyl-full/plaf:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/Joe/stencylworks/games-generated/BC15092014b/Export/ios/build/Release-iphoneos/BC15092014b.app36"509F8D6F-351A-4D43-B6C7-5788093D635A-
+
